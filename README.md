@@ -1,6 +1,14 @@
 # personal-xrandr
 My personal settings for xrandr
 
+### Install
+
+```bash
+sudo apt update
+sudo apt install lxrandr
+```
+
+### Setup
 
 ```bash
 xrandr --listmonitors
