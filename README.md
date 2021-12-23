@@ -1,5 +1,6 @@
-# personal-xrandr
-My personal settings for xrandr
+# personal-xrandr.sh
+
+xrandr is an official configuration utility to the RandR (Resize and Rotate) X Window System extension. It can be used to set the size, orientation or reflection of the outputs for a screen. For configuring multiple monitors see the Multihead page.
 
 ### Install
 
