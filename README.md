@@ -5,6 +5,7 @@ xrandr is an official configuration utility to the RandR (Resize and Rotate) X W
 ### Install
 
 ```bash
+#!/bin/sh
 sudo apt update
 sudo apt install lxrandr
 ```
@@ -12,13 +13,17 @@ sudo apt install lxrandr
 ### Setup
 
 ```bash
+#!/bin/sh
 xrandr --listmonitors
+```
+```
 Monitors: 2
  0: +*HDMI3 3840/610x2160/350+0+0  HDMI3
  1: +HDMI2 1200/520x1920/320+3840+0  HDMI2
 ```
 
 ```bash
+#!/bin/sh
 cat /etc/X11/xorg.conf.d/20-intel.conf
 Section "Device"
         Identifier  "Intel Graphics"
@@ -28,6 +33,7 @@ EndSection
 ```
 
 ```bash
+#!/bin/sh
 cat .config/autostart/hidpi.desktop
 [Desktop Entry]
 Name=HiDPi
